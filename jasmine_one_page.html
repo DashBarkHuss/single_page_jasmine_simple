@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.3.0/jasmine.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.3.0/jasmine.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.3.0/jasmine-html.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.3.0/boot.min.js"></script>
+    
+<script>
+    function add(a, b){
+    return a + b
+}
+describe('add', function(){
+    it('adds two numbers', function(){
+        expect(add(4,4)).toEqual(8);
+    }); 
+    it('adds two numbers', function(){
+        expect(add(-8,4)).toEqual(-4);
+    }); 
+});
+</script>
+</head>
+<body>
+
+</body>
